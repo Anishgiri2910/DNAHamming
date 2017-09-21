@@ -1,0 +1,12 @@
+def distance(first,second):
+	count=0
+	if(len(first)!=len(second)):
+		break
+	for i in range (len(first)):
+		if(first[i]!=second[i]):
+			count+=1
+	return count
+if __name__ == '__main__':
+	first=raw_input()
+	second=raw_input()
+	print distance(first,second)
